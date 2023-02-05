@@ -1,0 +1,266 @@
+* {
+    font-family: 'League Spartan', sans-serif;
+}
+
+body {
+    font-size: 15px;
+    margin: 0 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 10px;
+}
+
+.container .bg-1 .bg-mobile {
+    display: none;
+}
+
+.container .bg-1 .bg-desktop {
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.container .bg-2 .bg-mobile {
+    display: none;
+}
+
+.container .bg-2 .bg-desktop {
+    z-index: -1;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+.container .top {
+    display: flex;
+    margin: 127px auto 72px auto;
+    width: 77%;
+    box-sizing: border-box;
+}
+
+.container .top .description {
+    width: 40%;
+    margin: 0 125px 0 0;
+    box-sizing: border-box;
+}
+
+.container .top .description h1 {
+    color: #512051;
+    font-size: 51px;
+    font-weight: 700;
+    line-height: 48px;
+    margin: 0 0 6px 0;
+}
+
+.container .top .description p {
+    color: #927B91;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    margin: 0 0;
+}
+
+.container .top .stats {
+    width: 50%;
+    margin: 18px 0;
+}
+
+.container .top .stats .stat-1 {
+    background: #F7F2F7;
+    border-radius: 8px;
+    display: flex;
+    padding: 20px 0 20px 32px;
+    width: 82%;
+    box-sizing: border-box;
+    margin: 0 0 16px 0;
+}
+
+.container .top .stats .stat-1 span {
+    margin: 0 32px 0 0;
+}
+
+.container .top .stats .stat-1 p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+    color: #512051;
+    margin-top: 2px;
+}
+
+.container .top .stats .stat-2 {
+    background: #F7F2F7;
+    border-radius: 8px;
+    display: flex;
+    padding: 20px 0 20px 32px;
+    width: 82%;
+    box-sizing: border-box;
+    margin: 0 0 16px 9%;
+}
+
+.container .top .stats .stat-2 span {
+    margin: 0 32px 0 0;
+}
+
+.container .top .stats .stat-2 p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+    color: #512051;
+    margin-top: 2px;
+}
+
+.container .top .stats .stat-3 {
+    background: #F7F2F7;
+    border-radius: 8px;
+    display: flex;
+    padding: 20px 0 20px 32px;
+    width: 82%;
+    box-sizing: border-box;
+    margin: 0 0 0 18%;
+}
+
+.container .top .stats .stat-3 span {
+    margin: 0 32px 0 0;
+}
+
+.container .top .stats .stat-3 p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+    color: #512051;
+    margin-top: 2px;
+}
+
+.container .bottom {
+    display: flex;
+    width: 77%;
+    margin: 0 auto 100px auto;
+}
+
+.container .bottom .review-1 {
+    padding: 40px 32px;
+    width: 31%;
+    background-color: #512051;
+    border-radius: 8px;
+    margin: 0 30px 32px 0;
+}
+
+.container .bottom .review-2{
+    position: relative;
+    padding: 40px 32px;
+    width: 31%;
+    background-color: #512051;
+    border-radius: 8px;
+    margin: 16px 30px 16px 0;
+    
+}
+
+.container .bottom .review-3{
+    padding: 40px 32px;
+    width: 31%;
+    background-color: #512051;
+    border-radius: 8px;
+    margin: 32px 0 0 0;
+}
+
+.container .bottom .review-1 .author {
+    display: flex;
+}
+
+.container .bottom .review-1 .author img {
+    border-radius: 50%;
+    margin: 0 23px 0 0;
+    width: 40px;
+    height: auto;
+}
+
+.container .bottom .review-1 .author .author-name .name{
+    margin: 0 0 6px 0;
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.container .bottom .review-1 .author .author-name .user-type{
+    margin: 0 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #EE69A4;
+}
+
+.container .bottom .review-1 .review-text {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 26px 0 0 0;
+}
+
+.container .bottom .review-2 .author {
+    display: flex;
+}
+
+.container .bottom .review-2 .author img {
+    border-radius: 50%;
+    margin: 0 23px 0 0;
+    width: 40px;
+    height: auto;
+}
+
+.container .bottom .review-2 .author .author-name .name{
+    margin: 0 0 6px 0;
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.container .bottom .review-2 .author .author-name .user-type{
+    margin: 0 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #EE69A4;
+}
+
+.container .bottom .review-2 .review-text {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 26px 0 0 0;
+}
+
+.container .bottom .review-3 .author {
+    display: flex;
+}
+
+.container .bottom .review-3 .author img {
+    border-radius: 50%;
+    margin: 0 23px 0 0;
+    width: 40px;
+    height: auto;
+}
+
+.container .bottom .review-3 .author .author-name .name{
+    margin: 0 0 6px 0;
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.container .bottom .review-3 .author .author-name .user-type{
+    margin: 0 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #EE69A4;
+}
+
+.container .bottom .review-3 .review-text {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 26px 0 0 0;
+}

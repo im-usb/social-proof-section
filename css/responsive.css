@@ -1,0 +1,97 @@
+@media only screen and (max-width:768px){
+
+.container {
+    text-align: center;
+}
+
+.container .bg-1 .bg-desktop {
+    display: none;
+}
+
+.container .bg-1 .bg-mobile {
+    display: block;
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.container .bg-2 .bg-desktop {
+    display: none;
+}
+
+.container .bg-2 .bg-mobile {
+    z-index: -1;
+    display: block;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+.container .top {
+    flex-direction: column;
+    margin: 80px auto 49px auto;
+    width: 87%;
+}
+
+.container .top .description {
+    margin: 0 0 22px 0;
+    width: 100%;
+}
+
+.container .top .description h1 {
+    margin: 0 0 16px 0;
+}
+
+.container .top .stats {
+    width: 100%;
+}
+
+.container .top .stats .stat-1, .container .top .stats .stat-2 {
+    display: block;
+    margin: 0 0 16px 0;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.container .top .stats .stat-3 {
+    display: block;
+    width: 100%;
+    padding: 20px 0;
+    margin: 20px 0;
+}
+
+.container .top .stats .stat-1 span {
+    margin: 0 0;
+}
+
+.container .top .stats .stat-2 span {
+    margin: 0 0;
+}
+
+.container .top .stats .stat-3 span {
+    margin: 0 0;
+}
+
+
+.container .bottom {
+    flex-direction: column;
+    margin: 0 auto 40px auto;
+    width: 87%;
+}
+
+.container .bottom .review-1 {
+    margin: 0 0 8px 0;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.container .bottom .review-2, .container .bottom .review-3 {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: left;
+    margin: 8px 0 ;
+}
+
+}
